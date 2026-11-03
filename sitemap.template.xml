@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Replace PRODUCTION_DOMAIN with the confirmed public hostname before publishing this as sitemap.xml. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://PRODUCTION_DOMAIN/</loc></url>
+  <url><loc>https://PRODUCTION_DOMAIN/our-approach.html</loc></url>
+  <url><loc>https://PRODUCTION_DOMAIN/programmes.html</loc></url>
+  <url><loc>https://PRODUCTION_DOMAIN/class-schedules.html</loc></url>
+  <url><loc>https://PRODUCTION_DOMAIN/our-teacher.html</loc></url>
+  <url><loc>https://PRODUCTION_DOMAIN/trial-classes.html</loc></url>
+  <url><loc>https://PRODUCTION_DOMAIN/contact.html</loc></url>
+</urlset>
