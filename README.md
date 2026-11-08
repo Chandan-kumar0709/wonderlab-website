@@ -18,7 +18,7 @@ Contact enquiries currently use the confirmed Wonderlab email address. A website
 
 Edit `assets/content.js` for shared brand and contact details. Approval-dependent details stay out of public page content until Wonderlab confirms them. The privacy page redirects to Contact and remains noindex until the approved policy is supplied.
 
-The approved premium oval logo is stored in `assets/brand`. The header uses the compact primary SVG; the footer uses the compact light SVG. Favicon SVG/ICO files and the Apple touch icon use the approved orbit symbol. Full primary/light SVG and transparent PNG masters are also included. Preserve their aspect ratio and clear space. The earlier JPEG is retained as provenance, not used by the site.
+Uma's exact original logo at `assets/brand/original/wonderlabLogo.jpeg` is the authoritative brand master. Header and footer use that JPEG directly at its 2:1 aspect ratio, on white surfaces, without cropping, recolouring, background removal, filters or redrawing. The earlier oval assets are retained as unused history. Favicons are contain-resized copies of the complete original artwork on square white canvases; no separate symbol is invented. Social metadata also references the original JPEG.
 
 ## SEO before publication
 
@@ -67,7 +67,7 @@ The Python check covers HTML nesting, IDs, local links and fragments, image attr
 
 ## Approved branding and release
 
-`assets/phase3.css` is loaded after Phase 2. It refines typography, header/footer proportions, buttons, focus indicators and image framing. The final oval artwork was approved by the owner on 8 November 2026 and is integrated from repository-local files. No proposal previews, client documents, temporary reports, backups or credentials belong in the release commit.
+`assets/phase3.css` is loaded after Phase 2. It refines typography, header/footer proportions, buttons, focus indicators and image framing. The later local correction uses Uma's supplied original JPEG and supersedes the oval redesign. `assets/original-brand.css` is loaded last for original-logo presentation, neutral card highlights and mobile programme/trial refinements. These corrections are pending review and have not been deployed. No proposal previews, client documents, temporary reports, backups or credentials belong in the release commit.
 
 The launch offer is Primary 3–6 Science only, as specified in the developer brief; Maths is not advertised. Pending schedules, fees, trial terms, WhatsApp/QR and social details remain absent. Teacher credentials and portrait, experiments safety/syllabus mapping, privacy/DPO details and any future form provider require separate sign-off. GitHub Pages hosting and business ownership arrangements remain the client's responsibility; this release does not change DNS or email records.
 
