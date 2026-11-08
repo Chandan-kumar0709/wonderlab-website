@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title"><title id="title">Wonderlab proposed orbit icon</title>
+    <path d="M48 13C28 0 7 16 9 36C11 53 31 61 47 50" fill="none" stroke="#21A7AE" stroke-width="6" stroke-linecap="round"/>
+    <path d="M49 14C62 29 58 47 43 54" fill="none" stroke="#EDBA55" stroke-width="5" stroke-linecap="round"/>
+    <path fill="#FBFAF6" d="M12 43C24 56 49 49 57 33C51 53 24 64 12 43Z"/>
+    <path fill="#EDBA55" d="M34,20 C35.54,29.24 35.76,29.46 45,31 C35.76,32.54 35.54,32.76 34,42 C32.46,32.76 32.24,32.54 23,31 C32.24,29.46 32.46,29.24 34,20Z"/>
+    </svg>

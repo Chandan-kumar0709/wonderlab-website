@@ -1,0 +1,25 @@
+name: Validate website
+on:
+  push:
+    branches: [main, wonderlab-science-update]
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+          fetch-depth: 2
+      - name: Check HTML, links, metadata, CSS structure and approval gates
+        run: python3 scripts/check-site.py
+      - name: Check JavaScript syntax
+        run: |
+          node --check assets/site.js
+          node --check assets/content.js
+          node --check assets/media.js
+      - name: Check whitespace
+        run: git diff --check HEAD^ HEAD
