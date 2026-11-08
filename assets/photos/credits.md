@@ -11,3 +11,9 @@ These five photos are local copies of Pexels stock imagery. They are representat
 | `pexels-collaborative-learning.jpg` | Artem Podrez | https://www.pexels.com/photo/elementary-students-writing-on-a-paper-8087856/ |
 
 The displayed image captions identify the scenes as representative imagery. Obtain Wonderlab-specific photography and appropriate image permissions before replacing these stock images with actual student or staff photos.
+
+## Phase 2 verification 8 November 2026
+
+All five source pages above were checked against Pexels photographer credits. The trial-page classroom caption was corrected to Yan Krukau. Pexels permits website use and modification, does not require attribution, and prohibits implying endorsement by people or brands shown: https://www.pexels.com/license/.
+
+The original JPEG files are retained unchanged. Each has 480px, 960px and 1600px WebP derivatives (quality 78), preserving aspect ratio and removing source metadata. Content pages use responsive WebP sources with the original JPEG as fallback. The unused science-class photo is retained with its derivatives for future approved use; it has not been added to the experiments section. These photographs do not establish what Wonderlab's centre or activities look like.

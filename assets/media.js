@@ -92,7 +92,7 @@
     if (pointerStartX === null) return;
     const delta = event.clientX - pointerStartX;
     pointerStartX = null;
-    if (Math.abs(delta) > 48) {
+    if (delta > 48 || delta < -48) {
       suppressClick = true;
       showSlide(current + (delta < 0 ? 1 : -1));
     }
