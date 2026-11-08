@@ -88,7 +88,7 @@ body {
 .photo-shape { box-shadow: 0 24px 50px rgba(16,40,61,.13); }
 .photo-label { left: 20px; bottom: 18px; padding: 7px 10px; border: 1px solid rgba(255,255,255,.28); border-radius: 999px; background: rgba(16,40,61,.62); font-size: 10px; letter-spacing: .08em; }
 .teacher-copy .placeholder-note { max-width: 45ch; }
-.trial-band { background: radial-gradient(ellipse at 90% 25%, rgba(63,119,111,.55), transparent 28rem), linear-gradient(115deg,#0c2235,#15384a); }
+.trial-band { background: #112C48; }
 .trial-band::after { position: absolute; right: 4%; bottom: -155px; width: 340px; height: 340px; border: 1px solid rgba(238,228,207,.16); border-radius: 50%; box-shadow: 0 0 0 32px rgba(238,228,207,.025), 0 0 0 68px rgba(238,228,207,.02); content: ""; pointer-events: none; }
 .small-class-band { background: linear-gradient(112deg,#dce9e1,#edf1e9); }
 .small-class-band::after { width: 1px; background: rgba(16,40,61,.13); }

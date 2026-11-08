@@ -43,7 +43,7 @@ a:focus-visible, button:focus-visible, #primary-nav .nav-contact:focus-visible {
 .grade-focus { font-size: 16px; }
 .programme-level-card .eyebrow { color: var(--teal); font-weight: 700; }
 .programme-level-card h3 { font-size: clamp(24px, 2.3vw, 29px); line-height: 1.2; }
-.programme-level-card:target { border-color: var(--teal); box-shadow: 0 0 0 2px rgb(20 123 128 / 16%), var(--brand-shadow); }
+.programme-level-card:target { border-color: var(--navy); box-shadow: var(--brand-shadow); }
 .level-nav a { border-color: rgb(17 44 72 / 26%); font-size: 15px; font-weight: 600; }
 .level-nav a:hover { background: var(--navy); }
 .teaser-art { background: #f0f4f1; border: 1px solid rgb(17 44 72 / 8%); }
