@@ -1,0 +1,68 @@
+/* Uma's approved typography. Original logo artwork is an image and is untouched. */
+@font-face {
+  font-family: "Source Serif 4";
+  src: url("fonts/source-serif-4-roman-variable.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 200 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Serif 4";
+  src: url("fonts/source-serif-4-italic-variable.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 200 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/inter-roman-variable.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/inter-italic-variable.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+}
+:root {
+  --serif: "Source Serif 4", Georgia, serif;
+  --sans: "Inter", Arial, sans-serif;
+  --display: var(--serif);
+}
+body, button, input, select, textarea {
+  font-family: var(--sans);
+  font-optical-sizing: auto;
+}
+h1, h2, h3, h4, h5, h6,
+.art-caption, .teaser-caption, .teacher-quote,
+.page-hero-art .art-number, .subject-symbol,
+.hero-photo-frame figcaption, .carousel-slide figcaption strong {
+  font-family: var(--serif);
+  font-optical-sizing: auto;
+}
+/* Keep existing size hierarchy and emphasis; retire the old sans-serif tracking. */
+body h1, body h2, body h3, body h4, body h5, body h6,
+body h1 em, body h2 em, body h3 em {
+  letter-spacing: -0.02em;
+}
+body .hero h1, body .hero.home-hero h1, body .page-hero h1,
+body .hero h1 em, body .page-hero h1 em {
+  font-family: "Source Serif 4", Georgia, serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-variation-settings: "opsz" 48, "wght" 550;
+  letter-spacing: -0.02em;
+}
+/* UI text and labels stay sans serif, even where legacy rules use --display. */
+#primary-nav, .button, .eyebrow, .section-label, .footer-heading,
+.hero-photo-frame figcaption small, .hero-photo-note span,
+.video-placeholder-label, .teaser-circle, .art-chip {
+  font-family: var(--sans);
+  font-optical-sizing: auto;
+}
+
+/* Reserve the existing header height before the shared navigation is inserted. */
+#site-header { min-height: calc(var(--header-height) + 1px); }
